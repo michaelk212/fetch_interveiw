@@ -1,9 +1,23 @@
-This repo serves to answer the Fetch Rewards Coding Exercise - Analytics Engineer.
+# Fetch Rewards Coding Exercise - Analytics Engineer
 
-Part 1: contains the ER-Diagram
-Part 2: contains the data, etl-pipeline (python), and sql-queries used to answer the six questions. 
-- in order to run part 2, the initialize_db.py script must be run first and then the run_pipeline_etl.py
-- These two scripts will create the fetch_rewards.db 
-Part 3: contains the jupyter notebook with EDA to answer Part 3; the write up is included in the document in Part 4
-Part 4: contains a word document that answers the questions in Part 3 & Part 4
+This repository is created to answer the Fetch Rewards Coding Exercise for the position of Analytics Engineer. The project is divided into multiple parts:
 
+## Part 1: ER-Diagram
+- This section contains the **Entity-Relationship Diagram (ER-Diagram)** for the dataset.
+
+## Part 2: Data, ETL Pipeline, and SQL Queries
+- This section includes:
+  - **Data**: The dataset used for analysis.
+  - **ETL Pipeline**: The Python script responsible for the ETL (Extract, Transform, Load) process.
+  - **SQL Queries**: SQL scripts that were used to answer the six questions posed by the exercise.
+  
+  **Important**:
+  - The `initialize_db.py` script must be run **first** to set up the database.
+  - After running `initialize_db.py`, run the `run_pipeline_etl.py` script. This will execute the pipeline and generate the `fetch_rewards.db` database.
+
+## Part 3: Exploratory Data Analysis (EDA)
+- This part contains a **Jupyter notebook** that performs **Exploratory Data Analysis (EDA)**.
+- The EDA is aimed at answering the questions posed in **Part 3** of the exercise.
+
+## Part 4: Write-up and Final Answers
+- A **Word document** is provided that answers the questions in **Part 3** and **Part 4** of the exercise.
